@@ -1,0 +1,27 @@
+.movieDetail {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 1rem;
+}
+
+.movieDetail h1,
+.movieDetail h2,
+.movieDetail h3,
+.movieDetail h4 {
+  margin-bottom: 0.5rem;
+}
+.infoPara {
+  display: flex;
+  margin: 1rem 0;
+}
+.key {
+  width: 200px;
+}
+.bigInfo {
+  margin: 1rem auto;
+}
+@media screen and (max-width: 700px) {
+  .movieDetail {
+    grid-template-columns: 1fr;
+  }
+}
